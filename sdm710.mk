@@ -406,7 +406,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/sdm845/audio \
+    hardware/qcom-caf/sdm845/media \
+    hardware/qcom-caf/sdm845/display
 
 # Telephony
 PRODUCT_PACKAGES += \
