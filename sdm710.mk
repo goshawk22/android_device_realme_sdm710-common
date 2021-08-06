@@ -11,6 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/realme/sdm710-common/sdm710-common-vendor.mk)
 
+# BT
+include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
+$(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
@@ -139,12 +143,9 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0-impl:32 \
+    android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
-    BluetoothResCommon \
     libbthost_if \
-    libldacBT_dec \
-    libbluetooth_qti \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
