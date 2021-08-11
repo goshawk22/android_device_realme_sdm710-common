@@ -13,3 +13,5 @@ ro.sf.blurs_are_expensive=1
 
 # Dex
 ro.sys.fw.dex2oat_thread_count=8
+
+dialer.supports.blur=true
