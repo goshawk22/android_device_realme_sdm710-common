@@ -804,6 +804,10 @@ system_ext/lib64/vendor.qti.hardware.perf@2.1.so|d5d5a1e6bbc2d6e44478330529a8961
 system_ext/lib64/vendor.qti.hardware.perf@2.2.so|a8df3ed7f434fb97f2c8e7877c1f90d5fc149fc4
 system_ext/lib64/vendor.qti.qspmhal@1.0.so|538e34410e38e11e397a7ae5a1b8915196f08bfc
 
+# Perf - from QCOM Common
+system_ext/lib/libbeluga.so|879ed469e4a98c6bd5d3379b9786e0f30b1518e1
+system_ext/lib64/libbeluga.so|2c327f37e9eebed975472adb37f62024cae24161
+
 # Qualcomm Display Utils - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|68275fb5e4388e3d624ce3dcb941bd623d12ddfe
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|3b9a0b71944c6b8d9a0b3a976a9ff09ba3864fb4
