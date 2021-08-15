@@ -127,6 +127,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl:32 \
+    android.hardware.bluetooth.a2dp@1.0-impl.mock \
     audio.bluetooth.default \
     BluetoothResCommon \
     libbthost_if \
