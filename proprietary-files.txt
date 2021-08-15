@@ -865,6 +865,10 @@ vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
+# Perf - from QCOM Common
+system_ext/lib/libbeluga.so|879ed469e4a98c6bd5d3379b9786e0f30b1518e1
+system_ext/lib64/libbeluga.so|2c327f37e9eebed975472adb37f62024cae24161
+
 # Qualcomm Display Utils - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|68275fb5e4388e3d624ce3dcb941bd623d12ddfe
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|3b9a0b71944c6b8d9a0b3a976a9ff09ba3864fb4
