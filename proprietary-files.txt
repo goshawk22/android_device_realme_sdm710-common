@@ -1127,6 +1127,18 @@ vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
+# Service Tracker - from RUI2 F.02
+vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|e9c628464a9979c52b473db0f747244255d338be
+vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
+vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|e291113e3c0d2bbb759100aeebab2c9c42b9e50f
+vendor/lib/vendor.qti.hardware.servicetracker@1.0.so|73ee5ef087925a96e59af317d0c49b5bf8ca6472
+vendor/lib/vendor.qti.hardware.servicetracker@1.1.so|59491006d8aa28f0ddf756e7a7c6af2fc2213f7b
+vendor/lib/vendor.qti.hardware.servicetracker@1.2.so|34f814ba3377c9f503db3daf9f8b5e7ea6aa7696
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|e966e8039616b8ec8da3c1b776a841b42edc7b12
+vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so|5cc7e26e390ba117c4075380ec5e34f71d770b01
+vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so|313fbe5ae0b2a10b4c2293cf4530dd45c50850bf
+vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so|c68342c7347aa148257d98f3f74225afc8c8c45d
+
 # Snapdragon Computer Vision Engine - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/lib64/libfastcvopt.so|dcbd38864009f985e98f8eaea10bb2658385995a
 vendor/lib64/libfastcvdsp_stub.so|de764c199026839848cdc803ed5cb2d8a51ad9b9
