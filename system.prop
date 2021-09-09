@@ -59,6 +59,10 @@ ro.config.low_ram=false
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
 
+# Enable blurs
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+
 # Media
 audio.offload.video=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
