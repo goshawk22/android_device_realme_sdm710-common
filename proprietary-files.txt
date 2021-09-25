@@ -495,6 +495,10 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|711f50db51cd10607f9065998cac45
 vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|db159c01971f592ee36ced08583281e2b52d698b
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|8c85aec8456f69296722c10ae034bd228cd70be2
 
+# GPS - from qssi-user 11 RKQ1.201217.002 1619368911282 release-keys
+vendor/lib/libcacertclient.so|1d9c1fc6b730810fbb800d8cc20aa2b352233998
+vendor/lib64/libcacertclient.so|90281ef665d6a66ad7aa0806d97c20866fe1a83d
+
 # Graphics (Adreno) - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/lib64/libC2D2.so|6fb775e393ce7161b30e3a71fa0f320e86374425
 vendor/lib64/libCB.so|bfb47fec90627dd68df536dbb4734453ebae1cf6
